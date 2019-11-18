@@ -7,7 +7,6 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 
 import java.net.InetSocketAddress;
 
@@ -16,7 +15,6 @@ import java.net.InetSocketAddress;
  * <p>
  * 服务启动监听器
  **/
-@Component
 @Slf4j
 public class NettyServer {
 
